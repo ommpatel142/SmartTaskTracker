@@ -1,32 +1,61 @@
-# Smart Task Tracker
+# 📝 Smart Task Tracker
 
-A C# WinForms desktop application for managing tasks with file-based persistence.
+A desktop task management application built using C# and WinForms that allows users to create, manage, and organize tasks with file-based persistence.
 
-## Features
+---
+
+## 📌 Overview
+This project was developed to provide a simple and efficient way to manage daily tasks using a clean graphical interface. It demonstrates core concepts such as UI design, file handling, and data management in a desktop application.
+
+---
+
+## 🚀 Features
 - Add, edit, and delete tasks
 - Delete multiple selected tasks with confirmation
-- Save tasks to CSV files
+- Save tasks to CSV files for persistence
 - Load one or multiple CSV files
 - Sort tasks by priority
-- Clean and user-friendly Windows Forms UI
+- Clean and user-friendly Windows Forms interface
 
-## Technologies Used
+---
+
+## 🛠️ Tech Stack
 - C#
-- .NET Framework
-- Windows Forms
+- .NET Framework (WinForms)
 - LINQ
 - File I/O (StreamReader / StreamWriter)
 
-## How It Works
+---
+
+## ⚙️ How It Works
 - Tasks are stored in memory using a `List<TaskItem>`
-- Data persistence is handled via CSV files
-- The ListView UI is refreshed from the in-memory list
+- Data is saved and loaded using CSV file handling
+- The ListView UI dynamically updates based on the task list
+- Sorting functionality is implemented using LINQ
 
-## How to Run
-1. Open the solution in Visual Studio
-2. Build and run the project
-3. Use the UI buttons to manage tasks
+---
 
-## Author
-Om Patel  
-Computer Engineering Technology – NAIT
+## ▶️ How to Run
+1. Open the solution in Visual Studio  
+2. Build the project  
+3. Run the application  
+4. Use the UI to manage tasks  
+
+---
+
+## 📷 Screenshots
+*(Add 1–2 screenshots of your UI here — very important)*
+
+---
+
+## 📚 What I Learned
+- Designing desktop applications using WinForms  
+- Implementing file-based data persistence  
+- Managing collections using List and LINQ  
+- Structuring clean and maintainable code  
+
+---
+
+## 👤 Author
+**Om Patel**  
+Computer Engineering Technology (Co-op) – NAIT
